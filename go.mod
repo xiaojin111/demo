@@ -8,6 +8,8 @@ require (
 )
 
 require (
+	github.com/gammazero/deque v0.1.0 // indirect
+	github.com/gammazero/workerpool v1.1.2 // indirect
 	github.com/goccy/go-json v0.8.1 // indirect
 	github.com/golang-module/carbon/v2 v2.1.8 // indirect
 	github.com/golang/snappy v0.0.4 // indirect

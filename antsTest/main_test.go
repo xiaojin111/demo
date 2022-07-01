@@ -22,7 +22,7 @@ func TestAnts(t *testing.T) {
 	p, _ := ants.NewPoolWithFunc(10, func(i interface{}) {
 		myFunc(i.(*xorm.Engine))
 	})
-	for i := 0; i < 10000; i++ {
+	for i := 0; i < 100; i++ {
 		p.Invoke(getEngine())
 	}
 }
